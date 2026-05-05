@@ -49,9 +49,6 @@ export default function Layout() {
             <NavLink to="/conclusiones" className={linkClase}>
               Conclusiones
             </NavLink>
-            <NavLink to="/reflexion" className={linkClase}>
-              Reflexión
-            </NavLink>
             <button
               type="button"
               onClick={() => setModoOscuro((v) => !v)}
@@ -71,8 +68,7 @@ export default function Layout() {
 
       <footer className="border-t border-slate-200 py-6 text-center text-sm text-slate-500 dark:border-slate-800 dark:text-slate-400">
         <p>
-          Entrega académica — Módulo 3 · Ética y ciudadanía ·{' '}
-          {new Date().getFullYear()}
+          Módulo 3 · Ética y ciudadanía · {new Date().getFullYear()}
         </p>
       </footer>
     </div>
